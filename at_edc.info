@@ -1,12 +1,9 @@
-; $Id: adaptivetheme_subtheme.info,v 1.1.2.29 2010/03/23 04:53:54 jmburnz Exp $
-
-
 ;----------// Theme Information
 
  ; Change the name and description for your subtheme.
 
-  name        = AT Subtheme
-  description = Starter subtheme for Adaptivetheme. Copy and paste this subtheme to get started building your own Drupal theme.
+  name        = EDC Theme
+  description = Basic theme for EDC sites based on subtheme for Adaptivetheme.
 
 
 ;----------// Required Theme Information

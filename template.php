@@ -16,7 +16,7 @@ if (db_is_active()) {
  * Note: you must have at minimum a color-default.css stylesheet in /css/theme/
  */
 if (theme_get_setting('color_enable_schemes') == 'on') {
-  drupal_add_css(drupal_get_path('theme', 'adaptivetheme_subtheme') .'/css/theme/'. get_at_colors(), 'theme');
+  drupal_add_css(drupal_get_path('theme', 'at_edc') .'/css/theme/'. get_at_colors(), 'theme');
 }
 
 /**
@@ -37,7 +37,7 @@ if (theme_get_setting('color_enable_schemes') == 'on') {
  *   The name of the template being rendered.
  */
 /*
-function adaptivetheme_subtheme_preprocess(&$vars, $hook) {
+function at_edc_preprocess(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 }
 */
@@ -51,7 +51,7 @@ function adaptivetheme_subtheme_preprocess(&$vars, $hook) {
  *   The name of the template being rendered.
  */
 /*
-function adaptivetheme_subtheme_preprocess_page(&$vars, $hook) {
+function at_edc_preprocess_page(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 }
 */
@@ -65,7 +65,7 @@ function adaptivetheme_subtheme_preprocess_page(&$vars, $hook) {
  *   The name of the template being rendered.
  */
 /*
-function adaptivetheme_subtheme_preprocess_node(&$vars, $hook) {
+function at_edc_preprocess_node(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 }
 */
@@ -79,7 +79,7 @@ function adaptivetheme_subtheme_preprocess_node(&$vars, $hook) {
  *   The name of the template being rendered.
  */
 /*
-function adaptivetheme_subtheme_preprocess_comment(&$vars, $hook) {
+function at_edc_preprocess_comment(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 }
 */
@@ -93,7 +93,7 @@ function adaptivetheme_subtheme_preprocess_comment(&$vars, $hook) {
  *   The name of the template being rendered.
  */
 /*
-function adaptivetheme_subtheme_preprocess_block(&$vars, $hook) {
+function at_edc_preprocess_block(&$vars, $hook) {
   $vars['sample_variable'] = t('Lorem ipsum.');
 }
 */

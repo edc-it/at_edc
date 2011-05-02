@@ -16,10 +16,10 @@ include_once(drupal_get_path('theme', 'adaptivetheme') .'/theme-settings.php');
 * @return
 *   A form array.
 */
-function adaptivetheme_subtheme_settings($saved_settings) {
+function at_edc_settings($saved_settings) {
   
   // Get the default values from the .info file.
-  $defaults = adaptivetheme_theme_get_default_settings('adaptivetheme_subtheme');
+  $defaults = adaptivetheme_theme_get_default_settings('at_edc');
     
   // Merge the saved variables and their default values.
   $settings = array_merge($defaults, $saved_settings);
