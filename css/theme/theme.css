@@ -216,10 +216,14 @@ div.logo-site-name strong {}
 
 /* Logo and Site Name SPAN wrappers. */
 span#logo {}
-span#site-name {}
+span#site-name {
+  position: absolute;
+  top: 25px;
+}
 
 #logo img {
   border: 1px solid #FFF;
+  margin: 5px 1em;
 }
 
 /* Override default pseudo class styles. */
